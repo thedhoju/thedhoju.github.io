@@ -2,6 +2,8 @@
 Author: Template Stock
 Author URL: http://templatestock.co
 --*/
+
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -21,6 +23,7 @@ input[type="button"]{
 h1,h2,h3,h4,h5,h6{
 	padding:0 0;
 	margin:0 0;
+	font-family: 'Helvetica';
 }
 p{
 	padding:0 0;
@@ -33,7 +36,7 @@ ul{
 body{
 	padding:0 0;
 	margin:0 0; 
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica';
 	
 	
 }
@@ -150,15 +153,15 @@ nav a:focus {
 }
 .banner_center h1 {
 	color: #eee;
-	font-family: 'Arvo', serif;
+	font-family: 'helvetica';
 	text-transform: uppercase;
-	font-size: 2.4em;
+	font-size: 3em;
 }
 .banner_center h2 {
 	color: #eee;
-	font-family: 'Arvo', serif;
+	font-family: 'helvetica';
 	text-transform: uppercase;
-	font-size: 2.4em;
+	font-size: 3em;
 	padding:7px 0;
 }
 .banner_center h2 span
@@ -201,9 +204,10 @@ ul.wmuSliderPagination {
 }
 .services-section{
 	padding:3em 0;
+	
 }
 .services-header{
-	text-align: center;
+	text-align: left;
 	width: 85%;
 	margin: 0 auto;
 
@@ -626,14 +630,15 @@ h2.resp-accordion {
 }
 .about-section {
 	padding:3em 0;
+	font-family: 'Helvetica';
 }
-.about-header {
+/* .about-header {
 	text-align: center;
 	
-}
+} */
 .about-header h3 {
 	font-size: 2.5em;
-	font-family: 'Arvo', serif;
+	font-family: 'Helvetica';
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #2a404e;
@@ -645,23 +650,28 @@ h2.resp-accordion {
 
 }
 .about-imag {
+	align-content: center;
 	float: left;
 	width:27%;
-	margin-right:5%
+	margin-right:0%
 }
 .about-imag img {
 	border: 2px solid #ef664d;
 	border-radius: 103px;
+	justify-self: flex-end;
 }
 .about-text {
 	float: left;
 	width: 65%;
 	margin-top:3%; 
+	text-align: left;
+	font-family: 'Helvetica';
 }
 .about-text p {
 	font-size: 15px;
 	color: #7e7e7e;
 	line-height: 1.5em;
+	font-family: 'Helvetica';
 }
 .about-sectiongrids{
 	padding: 40px 0px;
@@ -671,6 +681,14 @@ h2.resp-accordion {
 }
 .poll-desc {
 	float: left;
+}
+.preview{
+	display: flex;
+	flex-direction: row;
+	height: 300px;
+	width: 100%;
+	column-gap: 5px;
+	margin-left: 0%;
 }
 .poll-desc h4{
 	font-size: 17px;
@@ -1076,6 +1094,8 @@ padding-bottom: 2em;
 			top:12px;
 			}
 			}
+
+			
 	
 
 /*----- resposnive-menu -----*/
@@ -1266,6 +1286,7 @@ padding-bottom: 2em;
 			top:10px;
 			}
 	}
+	
 	@media(max-width:480px){
 		.header {
 			min-height: 275px;
