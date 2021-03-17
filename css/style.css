@@ -38,6 +38,7 @@ body{
 }
 .header{
 	background: url("../images/GCES.png") no-repeat center top;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
