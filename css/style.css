@@ -689,6 +689,7 @@ h2.resp-accordion {
 	width: 100%;
 	column-gap: 5px;
 	margin-left: 0%;
+	column-count: 2;
 }
 .poll-desc h4{
 	font-size: 17px;
